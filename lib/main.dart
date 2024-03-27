@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:startup_havuzu/views/splash/splash_view.dart';
 
 void main() => runApp(const MyApp());
 
@@ -11,7 +12,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: true,
       theme: ThemeData.dark(),
-      home: const MyHomePage(title: 'Flutter'), // ilk açılan ekran, route
+      home: const SplashScreen(), // ilk açılan ekran, route
     );
   }
 }
