@@ -11,8 +11,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: true,
       theme: ThemeData.dark(),
-      home: const MyHomePage(
-          title: 'Mirayın flutter sayfası'), // ilk açılan ekran, route
+      home: const MyHomePage(title: 'Flutter'), // ilk açılan ekran, route
     );
   }
 }
